@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+
+main{
+    margin: 2% 10%;
+    height: max-content;
+    padding: 4%;
+    box-shadow: 5px 5px 10px #8b8b8b inset;
+
+}
+img{
+    height: 30%;
+    width: 300px;
+    filter: drop-shadow(10px 10px 15px #555);
+}
+#img-det{
+    display: flex;
+    align-items: center;
+    font-family: "SUSE", sans-serif; 
+    font-weight: 470;
+    font-size: 20px; 
+}
+#star{
+    display: flex;
+    flex-wrap: wrap;
+    color: #555;
+}
+#text{
+    width: 500px;
+    text-align:start;
+    padding-left: 20;
+    letter-spacing: 1.2;
+line-height: 35px;
+}
+strong{
+    font-size: 25px;
+}
+#btn{
+    height: 40px;
+    width: 120px;
+    font-size: 22px;
+    font-family: "SUSE", sans-serif; 
+    font-weight: 470;
+    text-align: center;
+    margin-top: 10px;
+    background-image:linear-gradient(rgb(27, 124, 214),rgb(94, 190, 235));
+    border: none;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #6e6d6d;
+}
+#btn:hover,#cart:hover{
+    transform: scale(1.1);
+
+}
+#cart{
+    height: 40px;
+    width: 150px;
+    font-size: 22px;
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: "SUSE", sans-serif; 
+    font-weight: 470;
+    text-align: center;
+    background-image:linear-gradient(rgb(27, 124, 214),rgb(94, 190, 235));
+    border: none;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px #6e6d6d;
+}
+header{
+    height: 120px;
+    background-image: linear-gradient(rgba(6, 176, 182, 0.836),white);
+
+}
+#homediv{
+    padding: 50px;
+}
+#home{
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+}
+#home:hover{
+    border-bottom: 2px solid #f30707d5;
+}
+#not{
+    height: 300px;
+    width: 400px;
+    margin: 20%;
+    text-align: center;
+    font-size: 20px;
+    font-family: "SUSE", sans-serif; 
+    font-weight: 470;
+}
